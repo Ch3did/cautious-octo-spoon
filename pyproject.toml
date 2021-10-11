@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cautious-octo-spoon"
+version = "0.1.0"
+description = "CLI to contro movies"
+authors = ["Pedro Chedid <pedro.chedid@a55.tech>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
