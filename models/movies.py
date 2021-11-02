@@ -1,5 +1,4 @@
-from sqlalchemy import create_engine
-from sqlalchemy import text
+from sqlalchemy import create_engine, text
 
 engine = create_engine("sqlite+pysqlite:///:memory:", echo=True, future=True)
 
@@ -24,6 +23,6 @@ class Movies:
                 ),
                 title=self.title,
                 year=self.year,
-                image_id=self.self.image_id,
+                image_id=self.image_id,
                 image_url=self.image_url,
             )
